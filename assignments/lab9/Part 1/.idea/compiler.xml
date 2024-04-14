@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="StockService (1)" />
+        <module name="cloudgateway" />
+        <module name="StockService (2)" />
+        <module name="ProductService" />
+        <module name="StockService" />
+        <module name="EurekaServer2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TowStockService" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaServer" options="-parameters" />
+      <module name="EurekaServer2" options="-parameters" />
+      <module name="ProductService" options="-parameters" />
+      <module name="StockService" options="-parameters" />
+      <module name="StockService (1)" options="-parameters" />
+      <module name="StockService (2)" options="-parameters" />
+      <module name="TowStockService" options="-parameters" />
+      <module name="cloudgateway" options="-parameters" />
+    </option>
+  </component>
+</project>
